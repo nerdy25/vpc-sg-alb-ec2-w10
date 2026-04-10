@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "replace here with your bucket name"
+    bucket = "terraformstate-tay"
     key    = "terraform.tfstate"
-    region = "us-east-2" # fix: change from us-east-1 to us-east-2
+    region = "us-east-2"
   }
 }
